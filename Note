@@ -1,0 +1,13 @@
+valgrind -v executable
+
+-v : afficher plus d'info
+Il faut compiler l'executable avec l'option -g
+
+
+
+git add * 
+git commit -m "Message"
+git push
+
+
+https://github.com/Eluveitieluxtos/CPP
