@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1540242773 source:c:\users\bane\desktop\github\cpp\fraction\fraction.cpp
+	"Fraction.h"
+	<iostream>
+
+1540242274 c:\users\bane\desktop\github\cpp\fraction\fraction.h
+	<iostream>
+
+1540241601 source:c:\users\bane\desktop\github\cpp\fraction\main.cpp
+	<iostream>
+	"Fraction.h"
+
+1540242773 source:c:\users\bane\desktop\github\cpp\test\fraction\fraction.cpp
+	"Fraction.h"
+	<iostream>
+
+1540242274 c:\users\bane\desktop\github\cpp\test\fraction\fraction.h
+	<iostream>
+
+1540242941 source:c:\users\bane\desktop\github\cpp\test\fraction\main.cpp
+	<iostream>
+	"Fraction.h"
+

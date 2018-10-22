@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1537905745 source:c:\users\bane\desktop\tp c++\random\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

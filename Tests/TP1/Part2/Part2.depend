@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1536870000 source:c:\users\bane\desktop\tp c++\tp1\part2\point.cpp
+	<iostream>
+	"Point.hpp"
+
+1536870036 c:\users\bane\desktop\tp c++\tp1\part2\point.hpp
+
+1536867196 source:c:\users\bane\desktop\tp c++\tp1\part2\main.cpp
+
