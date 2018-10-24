@@ -18,8 +18,11 @@ class Chaine
         Chaine& operator= (const Chaine&);
         int getCapacite() const;
         const char* c_str() const;
-        void afficher();
+        /*void afficher();
+        void afficher(const char* T);
         void afficher(std::stringstream ss);
+        */
+        Chaine& operator= (Chaine const& ch);
 };
 
 

@@ -51,7 +51,7 @@ TEST_CASE("Constructeur de copie") {
     CHECK( 0 == strcmp(s1.c_str(), s2.c_str() ));
 }
 
-
+/*
 TEST_CASE("methode afficher") {
 	const char * original = "une chaine a tester";
     const Chaine c1(original);
@@ -62,7 +62,7 @@ TEST_CASE("methode afficher") {
 
     CHECK( ss.str() == original); // test de std::string :-)
 }
-
+*/
 /*
 TEST_CASE("operateur d'affectation") {
 	Chaine s1("une premiere chaine");
@@ -75,8 +75,8 @@ TEST_CASE("operateur d'affectation") {
     CHECK( 0 == strcmp(s1.c_str(), s2.c_str() ));
 
     s1 = s1; // est ce que cela va survivre a l execution ?
-}*/
-
+}
+*/
 /*
 TEST_CASE("Surcharge <<") {
 	const char * chaine = "une nouvelle surcharge";

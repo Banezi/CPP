@@ -1,6 +1,7 @@
 #include "Chaine.hpp"
 #include <cstring>
 #include <iostream>
+#include <sstream>
 using namespace std;
 
 Chaine::Chaine()
@@ -60,11 +61,38 @@ Chaine::~Chaine()
     if(t)
         delete [] t;
 }
-
+/*
 void Chaine::afficher()
 {
-    for(int i=0; i<taille; i++)
-        cout << t[i];
+
+}
+void Chaine::afficher(const char* T)
+{
+    for(int i=0; T[i]!='\0'; i++)
+    {
+        cout << T[i];
+    }
+    cout << endl;
+}
+void Chaine::afficher(std::stringstream ss)
+{
+    cout << ss << endl;
+}
+*/
+
+Chaine& Chaine::operator= (Chaine const& ch)
+{
+    if(&ch != this)
+    {
+        delete [] t;
+        taille = ch.taille;
+        t = new char[taille+1];
+        for(int i = 0; i<=taille; i++)
+        {
+            t[i] = ch[i];
+        }
+    }
+    return *this;
 }
 
 ostream& operator<< (ostream&, const Chaine&);
