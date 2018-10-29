@@ -1,6 +1,9 @@
 // Fichier Point.hpp
 // Il manque les gardiens mais je vous laisse les ajouter,
 // c'est comme en C
+#ifndef POINT_HPP_INCLUDED
+#define POINT_HPP_INCLUDED
+
 class Point {
    // par défaut, tout est privé dans une "class"
 
@@ -21,3 +24,5 @@ class Point {
   Point(int, int);
 
 };
+
+#endif

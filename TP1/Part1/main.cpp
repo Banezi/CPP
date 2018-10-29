@@ -1,10 +1,10 @@
-/* 1.1 Hello world
+/* 1.1 Hello world 
 #include <iostream>
 
-int main(int argc, char ** argv)
+int main()
 {
 
-  for(int i=0; i< 12; ++i)
+  for(int i=0; i< 120; ++i)
     std::cout << "Bonjour les ZZ" << 2 << std::endl;
 
   return 0;
@@ -17,10 +17,10 @@ int main(int argc, char ** argv)
 
 int main(int, char **)
 {
-  std::string prenom; // type spécial pour les chaînes de caractères
+  std::string prenom; // type spÃ©cial pour les chaï¿½nes de caractï¿½res
   int age;
 
-  std::cout << "Quel est votre prénom ?" << std::endl;
+  std::cout << "Quel est votre prÃ©nom ?" << std::endl;
   std::cin >> prenom;
   std::cout << "Quel est votre age ?" << std::endl;
   std::cin >> age ;
