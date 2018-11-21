@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1542209415 source:/home/bane/Bureau/CPP/TP9/main.cpp
+	<algorithm>
+	<vector>
+	<iostream>
+	<iterator>
+	<stack>
+	<iostream>
+	<queue>
+	"ZZ.h"
+	"map"
+
+1542209570 /home/bane/Bureau/CPP/TP9/ZZ.h
+	<iostream>
+	<string>
+
+1542209144 source:/home/bane/Bureau/CPP/TP9/ZZ.cpp
+	"ZZ.h"
+

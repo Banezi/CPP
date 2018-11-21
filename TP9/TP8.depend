@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1541607799 source:/home/LOCAL.ISIMA.FR/mabane/Bureau/CPP/TP8/main.cpp
+	<algorithm>
+	<vector>
+	<iostream>
+	<iterator>
+	<stack>
+	<iostream>
+	<queue>
+	"ZZ.h"
+
+1541607873 source:/home/LOCAL.ISIMA.FR/mabane/Bureau/CPP/TP8/ZZ.cpp
+	"ZZ.h"
+
+1541607831 /home/LOCAL.ISIMA.FR/mabane/Bureau/CPP/TP8/ZZ.h
+	<iostream>
+	<string>
+
+1542189897 source:/home/bane/Bureau/CPP/TP8/main.cpp
+	<algorithm>
+	<vector>
+	<iostream>
+	<iterator>
+	<stack>
+	<iostream>
+	<queue>
+	"ZZ.h"
+
+1542189897 /home/bane/Bureau/CPP/TP8/ZZ.h
+	<iostream>
+	<string>
+
